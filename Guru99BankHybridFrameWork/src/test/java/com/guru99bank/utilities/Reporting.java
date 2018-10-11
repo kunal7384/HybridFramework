@@ -30,7 +30,7 @@ public class Reporting extends TestListenerAdapter {
     	
     	htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") +"/test-output/Guru99 Bank.html");
     //	htmlReporter = new  ExtentHtmlReporter("extent.html");
-    	htmlReporter.loadXMLConfig(new File("F:\\Selemnium Practice code Aug 2018\\Guru99BankHybridFrameWork\\Config\\extentconfig.xml"));
+    	htmlReporter.loadXMLConfig(new File("C:\\Users\\dkunal\\git\\HybridFramework\\Guru99BankHybridFrameWork\\Config\\extentconfig.xml"));
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
         extent.setSystemInfo("OS", " Win10");
@@ -66,7 +66,7 @@ public class Reporting extends TestListenerAdapter {
     	 logger.log(Status.FAIL, MarkupHelper.createLabel(tr.getName()+" Test case FAILED due to below issues:", ExtentColor.RED));
     	  logger.fail(tr.getThrowable());
     	 
-    	 String screenshotPath = "F:\\Selemnium Practice code Aug 2018\\Guru99BankHybridFrameWork\\ScreenShot\\" +tr.getName() +".png";
+    	 String screenshotPath = "C:\\Users\\dkunal\\git\\HybridFramework\\Guru99BankHybridFrameWork\\ScreenShot\\" +tr.getName() +".png";
     	 
     	 File f = new File(screenshotPath);
     	 

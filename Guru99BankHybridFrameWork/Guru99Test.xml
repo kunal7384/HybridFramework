@@ -7,13 +7,11 @@
   <test thread-count="5" name="Login">
   <parameter name="browser" value="Chrome" />
     <classes>
-   <class name="com.guru99bank.testCases.BalancEInquiry"/>
+   <class name="com.guru99bank.testCases.LoginTest"/>
      
     </classes>
   </test> 
-  
-  
-  <!--  
+   
   <test thread-count="5" name="Invalid Login">
   <parameter name="browser" value="Chrome" />
     <classes>
@@ -58,5 +56,12 @@
         <class name="com.guru99bank.testCases.NewAccount"/>
     </classes>
   </test> 
--->
+  <test thread-count="5" name="Balance Enquiry">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+   <class name="com.guru99bank.testCases.BalancEInquiry"/>
+     
+    </classes>
+  </test> 
+
 </suite> <!-- Suite -->

@@ -68,14 +68,14 @@ public class BaseClass {
 			
 			
 		}
-	/* @AfterClass
+	 @AfterClass
 		
 		public void tearDown()
 		{
 			
 		driver.close();	
 			
-		} */
+		} 
 		
      
 	 public void addScreenShot(WebDriver driver ,String tname) throws IOException

@@ -16,7 +16,7 @@ public class ConfigReader {
 	public ConfigReader() 
 	{
 	try {
-		file = new File("F:\\Selemnium Practice code Aug 2018\\Guru99BankHybridFrameWork\\Config\\config.properties")	;
+		file = new File("C:\\Users\\dkunal\\git\\HybridFramework\\Guru99BankHybridFrameWork\\Config\\config.properties")	;
 		fis= new FileInputStream(file);
 		pro = new Properties();
 		pro.load(fis);

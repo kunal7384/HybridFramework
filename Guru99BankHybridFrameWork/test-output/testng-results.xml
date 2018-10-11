@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="29" passed="29">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="52899" started-at="2018-10-11T05:12:54Z" finished-at="2018-10-11T05:13:47Z">
+  <suite name="Suite" duration-ms="240180" started-at="2018-10-11T06:24:51Z" finished-at="2018-10-11T06:28:51Z">
     <groups>
     </groups>
-    <test name="Login" duration-ms="52899" started-at="2018-10-11T05:12:54Z" finished-at="2018-10-11T05:13:47Z">
-      <class name="com.guru99bank.testCases.BalancEInquiry">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testCases.BalancEInquiry@289d1c02]" name="setup" is-config="true" duration-ms="20802" started-at="2018-10-11T05:12:54Z" finished-at="2018-10-11T05:13:15Z">
+    <test name="Login" duration-ms="22515" started-at="2018-10-11T06:24:51Z" finished-at="2018-10-11T06:25:14Z">
+      <class name="com.guru99bank.testCases.LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testCases.LoginTest@4e718207]" name="setup" is-config="true" duration-ms="20602" started-at="2018-10-11T06:24:51Z" finished-at="2018-10-11T06:25:12Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,295 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:13, instance:com.guru99bank.testCases.BalancEInquiry@289d1c02]" name="login" duration-ms="3345" started-at="2018-10-11T05:13:15Z" description="Login" finished-at="2018-10-11T05:13:18Z">
+        <test-method status="PASS" signature="validlogin()[pri:1, instance:com.guru99bank.testCases.LoginTest@4e718207]" name="validlogin" duration-ms="1390" started-at="2018-10-11T06:25:12Z" description="Valid Login" finished-at="2018-10-11T06:25:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru99bank.testCases.LoginTest@4e718207]" name="tearDown" is-config="true" duration-ms="298" started-at="2018-10-11T06:25:13Z" finished-at="2018-10-11T06:25:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99bank.testCases.LoginTest -->
+    </test> <!-- Login -->
+    <test name="Invalid Login" duration-ms="23911" started-at="2018-10-11T06:25:14Z" finished-at="2018-10-11T06:25:38Z">
+      <class name="com.guru99bank.testCases.LoginInvalidTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testCases.LoginInvalidTest@5c072e3f]" name="setup" is-config="true" duration-ms="20119" started-at="2018-10-11T06:25:14Z" finished-at="2018-10-11T06:25:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_Invalid_Login()[pri:2, instance:com.guru99bank.testCases.LoginInvalidTest@5c072e3f]" name="verify_Invalid_Login" duration-ms="777" started-at="2018-10-11T06:25:34Z" description="Without Entering Any data into the field click on Login button" finished-at="2018-10-11T06:25:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Invalid_Login -->
+        <test-method status="PASS" signature="enterUsername()[pri:3, instance:com.guru99bank.testCases.LoginInvalidTest@5c072e3f]" name="enterUsername" duration-ms="2821" started-at="2018-10-11T06:25:35Z" description="Enter username and Keep password field Blank" finished-at="2018-10-11T06:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUsername -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru99bank.testCases.LoginInvalidTest@5c072e3f]" name="tearDown" is-config="true" duration-ms="173" started-at="2018-10-11T06:25:38Z" finished-at="2018-10-11T06:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99bank.testCases.LoginInvalidTest -->
+    </test> <!-- Invalid Login -->
+    <test name="Data Driven Testing" duration-ms="41837" started-at="2018-10-11T06:25:38Z" finished-at="2018-10-11T06:26:20Z">
+      <class name="com.guru99bank.testCases.LoginDataDrivenTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testCases.LoginDataDrivenTest@16f7c8c1]" name="setup" is-config="true" duration-ms="20405" started-at="2018-10-11T06:25:38Z" finished-at="2018-10-11T06:25:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLoginDDT(java.lang.String, java.lang.String)[pri:4, instance:com.guru99bank.testCases.LoginDataDrivenTest@16f7c8c1]" name="verifyLoginDDT" duration-ms="5528" started-at="2018-10-11T06:25:59Z" data-provider="logindata" finished-at="2018-10-11T06:26:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr139454]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty1!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginDDT -->
+        <test-method status="PASS" signature="verifyLoginDDT(java.lang.String, java.lang.String)[pri:4, instance:com.guru99bank.testCases.LoginDataDrivenTest@16f7c8c1]" name="verifyLoginDDT" duration-ms="4263" started-at="2018-10-11T06:26:04Z" data-provider="logindata" finished-at="2018-10-11T06:26:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr139454]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginDDT -->
+        <test-method status="PASS" signature="verifyLoginDDT(java.lang.String, java.lang.String)[pri:4, instance:com.guru99bank.testCases.LoginDataDrivenTest@16f7c8c1]" name="verifyLoginDDT" duration-ms="4489" started-at="2018-10-11T06:26:09Z" data-provider="logindata" finished-at="2018-10-11T06:26:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr139454]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginDDT -->
+        <test-method status="PASS" signature="verifyLoginDDT(java.lang.String, java.lang.String)[pri:4, instance:com.guru99bank.testCases.LoginDataDrivenTest@16f7c8c1]" name="verifyLoginDDT" duration-ms="6736" started-at="2018-10-11T06:26:13Z" data-provider="logindata" finished-at="2018-10-11T06:26:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr139454]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty1!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru99bank.testCases.LoginDataDrivenTest@16f7c8c1]" name="tearDown" is-config="true" duration-ms="193" started-at="2018-10-11T06:26:20Z" finished-at="2018-10-11T06:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99bank.testCases.LoginDataDrivenTest -->
+    </test> <!-- Data Driven Testing -->
+    <test name="Test for Add New Customer" duration-ms="30340" started-at="2018-10-11T06:26:20Z" finished-at="2018-10-11T06:26:51Z">
+      <class name="com.guru99bank.testCases.AddNewCustomer">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testCases.AddNewCustomer@5204062d]" name="setup" is-config="true" duration-ms="20180" started-at="2018-10-11T06:26:20Z" finished-at="2018-10-11T06:26:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="create_new_Customer()[pri:5, instance:com.guru99bank.testCases.AddNewCustomer@5204062d]" name="create_new_Customer" duration-ms="9952" started-at="2018-10-11T06:26:40Z" finished-at="2018-10-11T06:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_new_Customer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru99bank.testCases.AddNewCustomer@5204062d]" name="tearDown" is-config="true" duration-ms="196" started-at="2018-10-11T06:26:50Z" finished-at="2018-10-11T06:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99bank.testCases.AddNewCustomer -->
+    </test> <!-- Test for Add New Customer -->
+    <test name="Test cases For Edit Customer" duration-ms="43113" started-at="2018-10-11T06:26:51Z" finished-at="2018-10-11T06:27:34Z">
+      <class name="com.guru99bank.testCases.EditCustomer">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testCases.EditCustomer@10d59286]" name="setup" is-config="true" duration-ms="20157" started-at="2018-10-11T06:26:51Z" finished-at="2018-10-11T06:27:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="blankCustoerid()[pri:6, instance:com.guru99bank.testCases.EditCustomer@10d59286]" name="blankCustoerid" duration-ms="2891" started-at="2018-10-11T06:27:11Z" description="Without Entering Customer id and click on submmit link" finished-at="2018-10-11T06:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankCustoerid -->
+        <test-method status="PASS" signature="edit(java.lang.String)[pri:7, instance:com.guru99bank.testCases.EditCustomer@10d59286]" name="edit" duration-ms="3713" started-at="2018-10-11T06:27:14Z" data-provider="testdata" finished-at="2018-10-11T06:27:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[55426]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method status="PASS" signature="edit(java.lang.String)[pri:7, instance:com.guru99bank.testCases.EditCustomer@10d59286]" name="edit" duration-ms="3081" started-at="2018-10-11T06:27:17Z" data-provider="testdata" finished-at="2018-10-11T06:27:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[65011]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method status="PASS" signature="edit(java.lang.String)[pri:7, instance:com.guru99bank.testCases.EditCustomer@10d59286]" name="edit" duration-ms="4142" started-at="2018-10-11T06:27:21Z" data-provider="testdata" finished-at="2018-10-11T06:27:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[34456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method status="PASS" signature="edit(java.lang.String)[pri:7, instance:com.guru99bank.testCases.EditCustomer@10d59286]" name="edit" duration-ms="3008" started-at="2018-10-11T06:27:25Z" data-provider="testdata" finished-at="2018-10-11T06:27:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[67451]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method status="PASS" signature="edit(java.lang.String)[pri:7, instance:com.guru99bank.testCases.EditCustomer@10d59286]" name="edit" duration-ms="3274" started-at="2018-10-11T06:27:28Z" data-provider="testdata" finished-at="2018-10-11T06:27:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method status="PASS" signature="edit(java.lang.String)[pri:7, instance:com.guru99bank.testCases.EditCustomer@10d59286]" name="edit" duration-ms="2540" started-at="2018-10-11T06:27:31Z" data-provider="testdata" finished-at="2018-10-11T06:27:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru99bank.testCases.EditCustomer@10d59286]" name="tearDown" is-config="true" duration-ms="179" started-at="2018-10-11T06:27:34Z" finished-at="2018-10-11T06:27:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99bank.testCases.EditCustomer -->
+    </test> <!-- Test cases For Edit Customer -->
+    <test name="Test cases for New Account" duration-ms="23816" started-at="2018-10-11T06:27:34Z" finished-at="2018-10-11T06:27:58Z">
+      <class name="com.guru99bank.testCases.NewAccount">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testCases.NewAccount@68ceda24]" name="setup" is-config="true" duration-ms="5605" started-at="2018-10-11T06:27:34Z" finished-at="2018-10-11T06:27:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintoaccount()[pri:8, instance:com.guru99bank.testCases.NewAccount@68ceda24]" name="logintoaccount" duration-ms="987" started-at="2018-10-11T06:27:39Z" description="Login to the account" finished-at="2018-10-11T06:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoaccount -->
+        <test-method status="PASS" signature="invalid_new_account()[pri:9, instance:com.guru99bank.testCases.NewAccount@68ceda24]" name="invalid_new_account" duration-ms="1304" started-at="2018-10-11T06:27:40Z" description="Without Entering data into the fields and click on Submmit link" finished-at="2018-10-11T06:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_new_account -->
+        <test-method status="PASS" signature="invalid_new_account_invalidcustomerid()[pri:10, instance:com.guru99bank.testCases.NewAccount@68ceda24]" name="invalid_new_account_invalidcustomerid" duration-ms="6952" started-at="2018-10-11T06:27:42Z" description="Enter INvalid Customer id " finished-at="2018-10-11T06:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_new_account_invalidcustomerid -->
+        <test-method status="PASS" signature="invalid_new_account_intialdeposite()[pri:11, instance:com.guru99bank.testCases.NewAccount@68ceda24]" name="invalid_new_account_intialdeposite" duration-ms="2508" started-at="2018-10-11T06:27:49Z" description="Validate Intial Deposit Field Enter less than 500 rupess to deposit " finished-at="2018-10-11T06:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_new_account_intialdeposite -->
+        <test-method status="PASS" signature="verify_newAccount()[pri:12, instance:com.guru99bank.testCases.NewAccount@68ceda24]" name="verify_newAccount" duration-ms="6238" started-at="2018-10-11T06:27:51Z" description="Creating Valid New Account " finished-at="2018-10-11T06:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_newAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru99bank.testCases.NewAccount@68ceda24]" name="tearDown" is-config="true" duration-ms="197" started-at="2018-10-11T06:27:57Z" finished-at="2018-10-11T06:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99bank.testCases.NewAccount -->
+    </test> <!-- Test cases for New Account -->
+    <test name="Balance Enquiry" duration-ms="53688" started-at="2018-10-11T06:27:58Z" finished-at="2018-10-11T06:28:51Z">
+      <class name="com.guru99bank.testCases.BalancEInquiry">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testCases.BalancEInquiry@543788f3]" name="setup" is-config="true" duration-ms="20275" started-at="2018-10-11T06:27:58Z" finished-at="2018-10-11T06:28:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:13, instance:com.guru99bank.testCases.BalancEInquiry@543788f3]" name="login" duration-ms="3509" started-at="2018-10-11T06:28:18Z" description="Login" finished-at="2018-10-11T06:28:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@289d1c02]" name="verifyBalance" duration-ms="5279" started-at="2018-10-11T05:13:18Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T05:13:23Z">
+        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@543788f3]" name="verifyBalance" duration-ms="5267" started-at="2018-10-11T06:28:22Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T06:28:27Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +317,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBalance -->
-        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@289d1c02]" name="verifyBalance" duration-ms="2823" started-at="2018-10-11T05:13:23Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T05:13:26Z">
+        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@543788f3]" name="verifyBalance" duration-ms="3777" started-at="2018-10-11T06:28:27Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T06:28:31Z">
           <params>
             <param index="0">
               <value>
@@ -44,7 +328,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBalance -->
-        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@289d1c02]" name="verifyBalance" duration-ms="2814" started-at="2018-10-11T05:13:26Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T05:13:29Z">
+        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@543788f3]" name="verifyBalance" duration-ms="4952" started-at="2018-10-11T06:28:31Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T06:28:36Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +339,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBalance -->
-        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@289d1c02]" name="verifyBalance" duration-ms="2825" started-at="2018-10-11T05:13:29Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T05:13:32Z">
+        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@543788f3]" name="verifyBalance" duration-ms="3776" started-at="2018-10-11T06:28:36Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T06:28:39Z">
           <params>
             <param index="0">
               <value>
@@ -66,7 +350,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBalance -->
-        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@289d1c02]" name="verifyBalance" duration-ms="2807" started-at="2018-10-11T05:13:32Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T05:13:35Z">
+        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@543788f3]" name="verifyBalance" duration-ms="3695" started-at="2018-10-11T06:28:39Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T06:28:43Z">
           <params>
             <param index="0">
               <value>
@@ -77,7 +361,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBalance -->
-        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@289d1c02]" name="verifyBalance" duration-ms="1311" started-at="2018-10-11T05:13:35Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T05:13:36Z">
+        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@543788f3]" name="verifyBalance" duration-ms="2076" started-at="2018-10-11T06:28:43Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T06:28:45Z">
           <params>
             <param index="0">
               <value>
@@ -88,7 +372,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBalance -->
-        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@289d1c02]" name="verifyBalance" duration-ms="7623" started-at="2018-10-11T05:13:36Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T05:13:44Z">
+        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@543788f3]" name="verifyBalance" duration-ms="2966" started-at="2018-10-11T06:28:45Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T06:28:48Z">
           <params>
             <param index="0">
               <value>
@@ -99,7 +383,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBalance -->
-        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@289d1c02]" name="verifyBalance" duration-ms="2875" started-at="2018-10-11T05:13:44Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T05:13:47Z">
+        <test-method status="PASS" signature="verifyBalance(java.lang.String)[pri:14, instance:com.guru99bank.testCases.BalancEInquiry@543788f3]" name="verifyBalance" duration-ms="2988" started-at="2018-10-11T06:28:48Z" description="Verifying Balance Enquiry " data-provider="accountdata" finished-at="2018-10-11T06:28:51Z">
           <params>
             <param index="0">
               <value>
@@ -110,7 +394,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBalance -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru99bank.testCases.BalancEInquiry@543788f3]" name="tearDown" is-config="true" duration-ms="270" started-at="2018-10-11T06:28:51Z" finished-at="2018-10-11T06:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.guru99bank.testCases.BalancEInquiry -->
-    </test> <!-- Login -->
+    </test> <!-- Balance Enquiry -->
   </suite> <!-- Suite -->
 </testng-results>
