@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.guru99bank.utilities.Reporting"/>
+	</listeners>
+  <test thread-count="5" name="Login">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+   <class name="com.guru99bank.testCases.BalancEInquiry"/>
+     
+    </classes>
+  </test> 
+  
+  
+  <!--  
+  <test thread-count="5" name="Invalid Login">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+ 
+     <class name="com.guru99bank.testCases.LoginInvalidTest"/>
+     
+    </classes>
+  </test> 
+  
+  
+  <test thread-count="5" name="Data Driven Testing">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+ 
+      <class name="com.guru99bank.testCases.LoginDataDrivenTest"/>
+       
+    </classes>
+  </test> 
+ 
+  <test thread-count="5" name="Test for Add New Customer">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+   
+       <class name="com.guru99bank.testCases.AddNewCustomer"/>
+       
+    </classes>
+  </test> 
+ 
+  
+  <test thread-count="5" name="Test cases For Edit Customer">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+   
+        <class name="com.guru99bank.testCases.EditCustomer"/>
+ 
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="Test cases for New Account">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+        <class name="com.guru99bank.testCases.NewAccount"/>
+    </classes>
+  </test> 
+-->
+</suite> <!-- Suite -->
