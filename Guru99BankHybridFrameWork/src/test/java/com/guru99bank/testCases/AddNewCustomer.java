@@ -21,10 +21,10 @@ public class AddNewCustomer extends BaseClass {
 	public void create_new_Customer() throws InterruptedException, IOException
 	
 	{
-	login = new LoginPage(driver);
-	login.setUsaername(userName);
-	login.setPassword(passWord);
-	login.setLogin();
+	//login = new LoginPage(driver);
+//	login.setUsaername(userName);
+//	login.setPassword(passWord);
+//	login.setLogin();
 	Thread.sleep(2000);
 	createCustomer = new AddnewCustomerPage(driver);
 	

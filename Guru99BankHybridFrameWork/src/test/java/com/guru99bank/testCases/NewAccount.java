@@ -66,8 +66,8 @@ public class NewAccount extends BaseClass {
 	public void invalid_new_account_invalidcustomerid() throws InterruptedException
 	{
 		//newaccount = new NewAccountPage(driver);	
-	//	newaccount.click_newAccount();
-		//Thread.sleep(2000);
+		newaccount.click_newAccount();
+		Thread.sleep(2000);
 		newaccount.setCustomerid("2222");
 		Thread.sleep(2000);
 		newaccount.enterIntialDeposit("5000");
@@ -102,8 +102,8 @@ public class NewAccount extends BaseClass {
 	public void invalid_new_account_intialdeposite() throws InterruptedException
 	{
 		
-	    //	newaccount = new NewAccountPage(driver);	
-		//	newaccount.click_newAccount();
+	    	//newaccount = new NewAccountPage(driver);	
+			newaccount.click_newAccount();
 			Thread.sleep(2000);
 		newaccount.setCustomerid("55426");
 		newaccount.enterIntialDeposit("200");
@@ -138,7 +138,7 @@ public class NewAccount extends BaseClass {
 	@Test(priority=12 ,description="Creating Valid New Account ")
 	public void verify_newAccount() throws InterruptedException
 	{
-	//	newaccount = new NewAccountPage(driver);	
+	//newaccount = new NewAccountPage(driver);	
 		//newaccount.click_newAccount();
 		Thread.sleep(2000);
 	
