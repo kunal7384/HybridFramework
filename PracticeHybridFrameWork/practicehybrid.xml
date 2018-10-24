@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" >
+<!-- Suite -->   
+
+<listeners>
+		<listener class-name="com.practice.utility.Reporting"/>
+	</listeners> 
+	
+  <test name="SignUp">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+  <class name="com.practice.testcases.SignUpTest"/>
+     
+    </classes>
+  </test> 
+   
+  <test name="Invalid Login">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+  <class name="com.practice.testcases.InvalidLoginTest"/>
+     
+    </classes>
+
+  </test> 
+   
+  <test name="Login">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+  <class name="com.practice.testcases.LoginTest"/>
+     
+    </classes>
+
+  </test> 
+  
+  <test name="Data Driven">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+  <class name="com.practice.testcases.LoginDataDrivenTest"/>
+     
+    </classes>
+  </test> 
+   
+    
+   <test name="View Profile Data Driven">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+  <class name="com.practice.testcases.ViewProfileDatadrivenTest"/>
+     
+    </classes>
+  </test> 
+  
+   
+   <test name="View Profile ">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+  <class name="com.practice.testcases.ViewProfileTest"/>
+     
+    </classes>
+  </test> 
+  
+
+ 
+   <test name="firefox SignUp">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+  <class name="com.practice.testcases.SignUpTest"/>
+     
+    </classes>
+  </test> 
+  
+ 
+  <test name="firefox Invalid Login">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+  <class name="com.practice.testcases.InvalidLoginTest"/>
+     
+    </classes>
+
+  </test> 
+  
+  <test name="firefox Login">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+  <class name="com.practice.testcases.LoginTest"/>
+     
+    </classes>
+
+  </test> 
+  
+  <test name="firefox Data Driven">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+  <class name="com.practice.testcases.LoginDataDrivenTest"/>
+     
+    </classes>
+  </test> 
+   <test name="firefox View Profile Data Driven">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+  <class name="com.practice.testcases.ViewProfileDatadrivenTest"/>
+     
+    </classes>
+  </test> 
+  
+   <test name="firefox View Profile">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+  <class name="com.practice.testcases.ViewProfileTest"/>
+     
+    </classes>
+    
+  </test>
+
+  </suite> 

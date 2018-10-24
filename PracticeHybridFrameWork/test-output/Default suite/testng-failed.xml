@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.practice.testcases.ViewProfileTest">
+        <methods>
+          <include name="edit_profile_remove_firstname"/>
+          <include name="setup"/>
+          <include name="mobile_validation"/>
+          <include name="remove_mobile"/>
+          <include name="remove_lastName"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.practice.testcases.ViewProfileTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
