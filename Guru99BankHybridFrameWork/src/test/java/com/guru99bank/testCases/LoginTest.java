@@ -19,7 +19,7 @@ public class LoginTest extends  BaseClass {
 	
    
 	
-	@Test(priority =1 ,description ="Valid Login")
+	@Test(priority =1 ,description ="Valid Loogin")
 	public void validlogin() throws IOException
 	{
         

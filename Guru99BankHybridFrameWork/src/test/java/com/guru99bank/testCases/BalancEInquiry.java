@@ -59,7 +59,7 @@ public class BalancEInquiry extends BaseClass {
 			System.out.println(altext);
 			
 			
-			System.out.println("Invalid customer id are ::" +accountid);
+			System.out.println("Invalid customer id arre ::" +accountid);
 			
 			
 		}

@@ -20,7 +20,7 @@ public class LoginDataDrivenTest extends BaseClass {
 	LoginDataDrivenPage loginddt;
 	
 	
-	@Test(priority=4 ,dataProvider= "logindata")
+	@Test(priority=4 ,dataProvider= "logindataa")
 	public void verifyLoginDDT(String uid , String uipass) throws InterruptedException
 	{
 		loginddt = new LoginDataDrivenPage(driver);	
@@ -67,7 +67,7 @@ public class LoginDataDrivenTest extends BaseClass {
 	}
 	
 	
-	@DataProvider(name="logindata")
+	@DataProvider(name="logindataa")
 	
 	public Object[][] verify_login_data_drivern() throws BiffException, IOException
 	{

@@ -22,7 +22,7 @@ public class LoginInvalidTest extends BaseClass {
 		Alert alert = driver.switchTo().alert();
 		String alertMsg = alert.getText();
 		alert.accept();
-		System.out.println("Captured Error Message by Keeping username and password field blank:::::"+alertMsg);
+		System.out.println("Captured Error Messsage by Keeping username and password field blank:::::"+alertMsg);
 		
 		
 	}

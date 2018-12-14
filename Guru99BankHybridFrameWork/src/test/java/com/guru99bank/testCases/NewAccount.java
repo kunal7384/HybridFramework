@@ -31,7 +31,7 @@ public class NewAccount extends BaseClass {
 		
 	}
 	
-	@Test(priority=9 ,description="Without Entering data into the fields and click on Submmit link")
+	@Test(priority=9 ,description="Without Enteringg data into the fields and click on Submmit link")
 	
 	public void invalid_new_account()
 	{

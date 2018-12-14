@@ -62,7 +62,7 @@ public class AddNewCustomer extends BaseClass {
 		Assert.assertTrue(true);
 		System.out.println("11");
 		//BaseClass.isAlertPresent();
-		System.out.println("Email id Already Exsist");
+		System.out.println("Email id Already Exsistt");
 		
 	}
 	

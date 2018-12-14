@@ -179,7 +179,8 @@ public class AddnewCustomerPage {
 		
 		btn_submmit.click();
 		
-		
+		System.out.println("checking");
 		
 	}
+	
 }
