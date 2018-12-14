@@ -1,0 +1,228 @@
+2018-10-05 15:35:58,496 - Baseclass -INFO - Open Chrome Browser
+2018-10-05 15:36:05,114 - Baseclass -INFO - Opening URL 
+2018-10-05 15:36:14,477 - Baseclass -INFO - Entered Username
+2018-10-05 15:36:14,585 - Baseclass -INFO - Entered password
+2018-10-05 15:36:14,674 - Baseclass -INFO - Clicked on Login
+2018-10-05 15:36:17,470 - Baseclass -INFO - Verifying Title
+2018-10-05 15:36:17,739 - Baseclass -INFO - Open Chrome Browser
+2018-10-05 15:36:20,924 - Baseclass -INFO - Opening URL 
+2018-10-05 15:36:51,518 - Baseclass -INFO - Open Chrome Browser
+2018-10-05 15:36:56,321 - Baseclass -INFO - Opening URL 
+2018-10-05 15:37:15,186 - Baseclass -INFO - Entered Username for creating Student
+2018-10-05 15:37:15,372 - Baseclass -INFO - Entered password for creating Student
+2018-10-05 15:37:15,475 - Baseclass -INFO - Clicked on Login for Creating new Student
+2018-10-05 15:37:17,874 - Baseclass -INFO - verifying Title
+2018-10-05 15:37:17,983 - Baseclass -INFO - Entered First name
+2018-10-05 15:37:18,419 - Baseclass -INFO - Entered lastt name
+2018-10-05 15:37:18,506 - Baseclass -INFO - Entered Userr name
+2018-10-05 15:37:18,589 - Baseclass -INFO - Entered Email
+2018-10-05 15:37:18,737 - Baseclass -INFO - Entered password and Confirm password
+2018-10-05 15:37:18,954 - Baseclass -INFO - Entered Favorite Thing
+2018-10-05 15:37:19,091 - Baseclass -INFO - Entered Notes
+2018-10-08 14:36:05,528 - Baseclass -INFO - Open Chrome Browser
+2018-10-08 14:36:09,560 - Baseclass -INFO - Opening URL 
+2018-10-08 14:36:26,617 - Baseclass -INFO - Entered Username
+2018-10-08 14:36:26,794 - Baseclass -INFO - Entered password
+2018-10-08 14:36:26,876 - Baseclass -INFO - Clicked on Login
+2018-10-08 14:36:29,599 - Baseclass -INFO - Open Chrome Browser
+2018-10-08 14:36:32,929 - Baseclass -INFO - Opening URL 
+2018-10-08 14:36:51,335 - Baseclass -INFO - Entered User name for DDT
+2018-10-08 14:36:51,420 - Baseclass -INFO - Entered password for DDT
+2018-10-08 14:36:51,613 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-08 14:36:53,647 - Baseclass -INFO - Logout for DDT
+2018-10-08 14:36:56,332 - Baseclass -INFO - Entered User name for DDT
+2018-10-08 14:36:56,401 - Baseclass -INFO - Entered password for DDT
+2018-10-08 14:36:56,475 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-08 14:36:58,131 - Baseclass -INFO - Logout for DDT
+2018-10-08 14:37:00,456 - Baseclass -INFO - Entered User name for DDT
+2018-10-08 14:37:00,528 - Baseclass -INFO - Entered password for DDT
+2018-10-08 14:37:00,598 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-08 14:37:01,707 - Baseclass -INFO - Entered User name for DDT
+2018-10-08 14:37:01,859 - Baseclass -INFO - Entered password for DDT
+2018-10-08 14:37:01,941 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-08 14:37:03,004 - Baseclass -INFO - Entered User name for DDT
+2018-10-08 14:37:03,075 - Baseclass -INFO - Entered password for DDT
+2018-10-08 14:37:03,172 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-08 14:37:04,789 - Baseclass -INFO - Logout for DDT
+2018-10-08 14:37:07,464 - Baseclass -INFO - Entered User name for DDT
+2018-10-08 14:37:07,540 - Baseclass -INFO - Entered password for DDT
+2018-10-08 14:37:07,633 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-08 14:37:09,210 - Baseclass -INFO - Logout for DDT
+2018-10-08 14:37:11,614 - Baseclass -INFO - Open Chrome Browser
+2018-10-08 14:37:14,881 - Baseclass -INFO - Opening URL 
+2018-10-08 14:37:24,172 - Baseclass -INFO - Entered Username for creating Student
+2018-10-08 14:37:24,256 - Baseclass -INFO - Entered password for creating Student
+2018-10-08 14:37:24,350 - Baseclass -INFO - Clicked on Login for Creating new Student
+2018-10-08 14:37:26,371 - Baseclass -INFO - verifying Title
+2018-10-08 14:37:26,541 - Baseclass -INFO - Entered First name
+2018-10-08 14:37:26,941 - Baseclass -INFO - Entered lastt name
+2018-10-08 14:37:27,036 - Baseclass -INFO - Entered Userr name
+2018-10-08 14:37:27,127 - Baseclass -INFO - Entered Email
+2018-10-08 14:37:27,262 - Baseclass -INFO - Entered password and Confirm password
+2018-10-08 14:37:27,678 - Baseclass -INFO - Entered Favorite Thing
+2018-10-08 14:37:27,841 - Baseclass -INFO - Entered Notes
+2018-10-08 14:43:45,929 - Baseclass -INFO - Open Chrome Browser
+2018-10-08 14:43:49,551 - Baseclass -INFO - Opening URL 
+2018-10-08 14:43:57,850 - Baseclass -INFO - Entered Username
+2018-10-08 14:43:57,939 - Baseclass -INFO - Entered password
+2018-10-08 14:43:58,028 - Baseclass -INFO - Clicked on Login
+2018-10-08 14:44:00,415 - Baseclass -INFO - Open Chrome Browser
+2018-10-08 14:44:03,474 - Baseclass -INFO - Opening URL 
+2018-10-08 14:44:12,588 - Baseclass -INFO - Entered User name for DDT
+2018-10-08 14:44:12,708 - Baseclass -INFO - Entered password for DDT
+2018-10-08 14:44:12,801 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-08 14:44:14,731 - Baseclass -INFO - Logout for DDT
+2018-10-08 14:44:17,546 - Baseclass -INFO - Entered User name for DDT
+2018-10-08 14:44:17,674 - Baseclass -INFO - Entered password for DDT
+2018-10-08 14:44:17,742 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-08 14:44:19,340 - Baseclass -INFO - Logout for DDT
+2018-10-08 14:44:21,948 - Baseclass -INFO - Entered User name for DDT
+2018-10-08 14:44:22,021 - Baseclass -INFO - Entered password for DDT
+2018-10-08 14:44:22,089 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-08 14:44:23,169 - Baseclass -INFO - Entered User name for DDT
+2018-10-08 14:44:23,263 - Baseclass -INFO - Entered password for DDT
+2018-10-08 14:44:23,338 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-08 14:44:24,374 - Baseclass -INFO - Entered User name for DDT
+2018-10-08 14:44:24,449 - Baseclass -INFO - Entered password for DDT
+2018-10-08 14:44:24,578 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-08 14:44:26,316 - Baseclass -INFO - Logout for DDT
+2018-10-08 14:44:28,648 - Baseclass -INFO - Entered User name for DDT
+2018-10-08 14:44:28,719 - Baseclass -INFO - Entered password for DDT
+2018-10-08 14:44:28,787 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-08 14:44:30,398 - Baseclass -INFO - Logout for DDT
+2018-10-08 14:44:33,182 - Baseclass -INFO - Open Chrome Browser
+2018-10-08 14:44:37,472 - Baseclass -INFO - Opening URL 
+2018-10-08 14:44:47,718 - Baseclass -INFO - Entered Username for creating Student
+2018-10-08 14:44:47,987 - Baseclass -INFO - Entered password for creating Student
+2018-10-08 14:44:48,066 - Baseclass -INFO - Clicked on Login for Creating new Student
+2018-10-08 14:44:50,645 - Baseclass -INFO - verifying Title
+2018-10-08 14:44:50,781 - Baseclass -INFO - Entered First name
+2018-10-08 14:44:51,198 - Baseclass -INFO - Entered lastt name
+2018-10-08 14:44:51,311 - Baseclass -INFO - Entered Userr name
+2018-10-08 14:44:51,406 - Baseclass -INFO - Entered Email
+2018-10-08 14:44:51,655 - Baseclass -INFO - Entered password and Confirm password
+2018-10-08 14:44:51,843 - Baseclass -INFO - Entered Favorite Thing
+2018-10-08 14:44:51,957 - Baseclass -INFO - Entered Notes
+2018-10-15 14:36:12,570 - Baseclass -INFO - Open Chrome Browser
+2018-10-15 14:36:16,301 - Baseclass -INFO - Opening URL 
+2018-10-15 14:36:27,628 - Baseclass -INFO - Entered Username
+2018-10-15 14:36:27,757 - Baseclass -INFO - Open Chrome Browser
+2018-10-15 14:36:35,705 - Baseclass -INFO - Opening URL 
+2018-10-15 14:36:39,985 - Baseclass -INFO - Open Chrome Browser
+2018-10-15 14:36:47,961 - Baseclass -INFO - Opening URL 
+2018-10-15 14:38:06,393 - Baseclass -INFO - Open Chrome Browser
+2018-10-15 14:38:10,536 - Baseclass -INFO - Opening URL 
+2018-10-15 14:38:19,652 - Baseclass -INFO - Entered Username
+2018-10-15 14:38:19,742 - Baseclass -INFO - Entered password
+2018-10-15 14:38:19,825 - Baseclass -INFO - Clicked on Login
+2018-10-15 14:38:21,970 - Baseclass -INFO - Open Chrome Browser
+2018-10-15 14:38:25,081 - Baseclass -INFO - Opening URL 
+2018-10-15 14:38:34,797 - Baseclass -INFO - Entered User name for DDT
+2018-10-15 14:38:34,889 - Baseclass -INFO - Entered password for DDT
+2018-10-15 14:38:34,972 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-15 14:38:35,939 - Baseclass -INFO - Entered User name for DDT
+2018-10-15 14:38:36,009 - Baseclass -INFO - Entered password for DDT
+2018-10-15 14:38:36,107 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-15 14:38:37,100 - Baseclass -INFO - Entered User name for DDT
+2018-10-15 14:38:37,326 - Baseclass -INFO - Entered password for DDT
+2018-10-15 14:38:37,397 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-15 14:38:38,576 - Baseclass -INFO - Entered User name for DDT
+2018-10-15 14:38:38,655 - Baseclass -INFO - Entered password for DDT
+2018-10-15 14:38:38,726 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-15 14:38:39,618 - Baseclass -INFO - Entered User name for DDT
+2018-10-15 14:38:39,681 - Baseclass -INFO - Entered password for DDT
+2018-10-15 14:38:39,754 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-15 14:38:40,659 - Baseclass -INFO - Entered User name for DDT
+2018-10-15 14:38:40,762 - Baseclass -INFO - Entered password for DDT
+2018-10-15 14:38:40,836 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-15 14:38:41,780 - Baseclass -INFO - Open Chrome Browser
+2018-10-15 14:38:45,256 - Baseclass -INFO - Opening URL 
+2018-10-15 14:38:53,895 - Baseclass -INFO - Entered Username for creating Student
+2018-10-15 14:38:53,977 - Baseclass -INFO - Entered password for creating Student
+2018-10-15 14:38:54,057 - Baseclass -INFO - Clicked on Login for Creating new Student
+2018-10-15 14:38:55,201 - Baseclass -INFO - verifying Title
+2018-10-15 15:13:47,326 - Baseclass -INFO - Open Chrome Browser
+2018-10-15 15:13:51,103 - Baseclass -INFO - Opening URL 
+2018-10-15 15:13:59,095 - Baseclass -INFO - Entered Username
+2018-10-15 15:13:59,392 - Baseclass -INFO - Entered password
+2018-10-15 15:13:59,495 - Baseclass -INFO - Clicked on Login
+2018-10-15 15:14:02,054 - Baseclass -INFO - Open Chrome Browser
+2018-10-15 15:14:05,474 - Baseclass -INFO - Opening URL 
+2018-10-15 15:14:16,530 - Baseclass -INFO - Entered User name for DDT
+2018-10-15 15:14:16,627 - Baseclass -INFO - Entered password for DDT
+2018-10-15 15:14:16,711 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-15 15:14:18,751 - Baseclass -INFO - Entered User name for DDT
+2018-10-15 15:14:18,827 - Baseclass -INFO - Entered password for DDT
+2018-10-15 15:14:18,897 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-15 15:14:20,216 - Baseclass -INFO - Entered User name for DDT
+2018-10-15 15:14:20,321 - Baseclass -INFO - Entered password for DDT
+2018-10-15 15:14:20,498 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-15 15:14:21,683 - Baseclass -INFO - Entered User name for DDT
+2018-10-15 15:14:21,767 - Baseclass -INFO - Entered password for DDT
+2018-10-15 15:14:21,838 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-15 15:14:22,771 - Baseclass -INFO - Entered User name for DDT
+2018-10-15 15:14:22,951 - Baseclass -INFO - Entered password for DDT
+2018-10-15 15:14:23,031 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-15 15:14:24,239 - Baseclass -INFO - Entered User name for DDT
+2018-10-15 15:14:24,322 - Baseclass -INFO - Entered password for DDT
+2018-10-15 15:14:24,425 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-15 15:14:25,409 - Baseclass -INFO - Open Chrome Browser
+2018-10-15 15:14:28,599 - Baseclass -INFO - Opening URL 
+2018-10-15 15:14:37,492 - Baseclass -INFO - Entered Username for creating Student
+2018-10-15 15:14:37,578 - Baseclass -INFO - Entered password for creating Student
+2018-10-15 15:14:37,661 - Baseclass -INFO - Clicked on Login for Creating new Student
+2018-10-15 15:14:38,648 - Baseclass -INFO - verifying Title
+2018-10-17 18:16:27,251 - Baseclass -INFO - Open Chrome Browser
+2018-10-17 18:16:32,748 - Baseclass -INFO - Opening URL 
+2018-10-18 10:04:15,635 - Baseclass -INFO - Open Chrome Browser
+2018-10-18 10:04:23,558 - Baseclass -INFO - Opening URL 
+2018-10-18 10:04:41,501 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 10:04:41,673 - Baseclass -INFO - Entered password for DDT
+2018-10-18 10:04:41,750 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-18 10:04:42,854 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 10:04:42,969 - Baseclass -INFO - Entered password for DDT
+2018-10-18 10:04:43,036 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-18 10:04:44,361 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 10:04:44,449 - Baseclass -INFO - Entered password for DDT
+2018-10-18 10:04:44,534 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-18 10:04:45,400 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 10:04:45,486 - Baseclass -INFO - Entered password for DDT
+2018-10-18 10:04:45,571 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-18 10:04:46,492 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 10:04:46,573 - Baseclass -INFO - Entered password for DDT
+2018-10-18 10:04:46,640 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-18 10:04:47,520 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 10:04:47,584 - Baseclass -INFO - Entered password for DDT
+2018-10-18 10:04:47,645 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-18 10:04:48,513 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 10:04:48,576 - Baseclass -INFO - Entered password for DDT
+2018-10-18 10:04:48,642 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-18 10:04:49,548 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 10:04:49,704 - Baseclass -INFO - Entered password for DDT
+2018-10-18 10:04:49,810 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-18 16:24:28,867 - Baseclass -INFO - Open Chrome Browser
+2018-10-18 16:24:33,361 - Baseclass -INFO - Opening URL 
+2018-10-18 16:24:51,234 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 16:24:51,453 - Baseclass -INFO - Entered password for DDT
+2018-10-18 16:24:51,521 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-18 16:24:52,711 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 16:24:52,805 - Baseclass -INFO - Entered password for DDT
+2018-10-18 16:24:52,874 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-18 16:24:53,792 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 16:24:53,878 - Baseclass -INFO - Entered password for DDT
+2018-10-18 16:24:53,974 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-18 16:24:55,001 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 16:24:55,108 - Baseclass -INFO - Entered password for DDT
+2018-10-18 16:24:55,182 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-18 16:24:56,063 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 16:24:56,140 - Baseclass -INFO - Entered password for DDT
+2018-10-18 16:24:56,211 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-18 16:24:57,091 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 16:24:57,156 - Baseclass -INFO - Entered password for DDT
+2018-10-18 16:24:57,217 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-18 16:24:58,097 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 16:24:58,164 - Baseclass -INFO - Entered password for DDT
+2018-10-18 16:24:58,234 - Baseclass -INFO - Clicked Loginfor DDT
+2018-10-18 16:24:59,120 - Baseclass -INFO - Entered User name for DDT
+2018-10-18 16:24:59,206 - Baseclass -INFO - Entered password for DDT
+2018-10-18 16:24:59,287 - Baseclass -INFO - Clicked Loginfor DDT

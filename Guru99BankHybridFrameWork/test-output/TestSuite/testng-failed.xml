@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="com.guru99bank.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Login(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.guru99bank.testCases.VerifyAllLink">
+        <methods>
+          <include name="verify_all_link"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.guru99bank.testCases.VerifyAllLink -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

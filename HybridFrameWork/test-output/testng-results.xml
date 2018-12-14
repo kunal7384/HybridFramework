@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31639" started-at="2018-10-18T10:54:28Z" finished-at="2018-10-18T10:55:00Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="31639" started-at="2018-10-18T10:54:28Z" finished-at="2018-10-18T10:55:00Z">
+      <class name="com.guru99bank.testCases.L">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.guru99bank.testCases.L@8e24743]" name="setup" is-config="true" duration-ms="22064" started-at="2018-10-18T10:54:28Z" finished-at="2018-10-18T10:54:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login_datadriven(java.lang.String, java.lang.String)[pri:0, instance:com.guru99bank.testCases.L@8e24743]" name="login_datadriven" duration-ms="1510" started-at="2018-10-18T10:54:51Z" data-provider="aaaa" finished-at="2018-10-18T10:54:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr139454]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_datadriven -->
+        <test-method status="PASS" signature="login_datadriven(java.lang.String, java.lang.String)[pri:0, instance:com.guru99bank.testCases.L@8e24743]" name="login_datadriven" duration-ms="1076" started-at="2018-10-18T10:54:52Z" data-provider="aaaa" finished-at="2018-10-18T10:54:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr139454]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_datadriven -->
+        <test-method status="PASS" signature="login_datadriven(java.lang.String, java.lang.String)[pri:0, instance:com.guru99bank.testCases.L@8e24743]" name="login_datadriven" duration-ms="1207" started-at="2018-10-18T10:54:53Z" data-provider="aaaa" finished-at="2018-10-18T10:54:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr139454]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty1!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_datadriven -->
+        <test-method status="PASS" signature="login_datadriven(java.lang.String, java.lang.String)[pri:0, instance:com.guru99bank.testCases.L@8e24743]" name="login_datadriven" duration-ms="1059" started-at="2018-10-18T10:54:54Z" data-provider="aaaa" finished-at="2018-10-18T10:54:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr139455]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwwwewe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_datadriven -->
+        <test-method status="PASS" signature="login_datadriven(java.lang.String, java.lang.String)[pri:0, instance:com.guru99bank.testCases.L@8e24743]" name="login_datadriven" duration-ms="1024" started-at="2018-10-18T10:54:56Z" data-provider="aaaa" finished-at="2018-10-18T10:54:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dfdfdfv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dvfvfvf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_datadriven -->
+        <test-method status="PASS" signature="login_datadriven(java.lang.String, java.lang.String)[pri:0, instance:com.guru99bank.testCases.L@8e24743]" name="login_datadriven" duration-ms="1004" started-at="2018-10-18T10:54:57Z" data-provider="aaaa" finished-at="2018-10-18T10:54:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dfv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfvd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_datadriven -->
+        <test-method status="PASS" signature="login_datadriven(java.lang.String, java.lang.String)[pri:0, instance:com.guru99bank.testCases.L@8e24743]" name="login_datadriven" duration-ms="1016" started-at="2018-10-18T10:54:58Z" data-provider="aaaa" finished-at="2018-10-18T10:54:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dvcv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cvcvcv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_datadriven -->
+        <test-method status="PASS" signature="login_datadriven(java.lang.String, java.lang.String)[pri:0, instance:com.guru99bank.testCases.L@8e24743]" name="login_datadriven" duration-ms="1100" started-at="2018-10-18T10:54:59Z" data-provider="aaaa" finished-at="2018-10-18T10:55:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr139454]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty1!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_datadriven -->
+      </class> <!-- com.guru99bank.testCases.L -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
